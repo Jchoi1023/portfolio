@@ -32,7 +32,7 @@ navbarToggleBtn.addEventListener('click', () => {
 // Handle click on "PROJECTS" button on home
 const homeProjectBtn = document.querySelector('.home__project');
 homeProjectBtn.addEventListener('click', () => {
-  scrollIntoView('#projects');
+  scrollIntoView('#work');
 });
 
 // Make home slowly fade to transparent as the window scrolls down
