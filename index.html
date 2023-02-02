@@ -29,13 +29,12 @@
         src="imgs/favicon.jpg"
         alt="Jihye's profile photo"
         class="navbar__avatar"/> 
-        <!-- <i class="fab fa-diaspora"></i> -->
         <a class='navbar__name' href="#">JIHYE CHOI</a>
       </div>
       <ul class="navbar__menu">
         <li class="navbar__menu__item active" data-link="#home">HOME</li>
-        <li class="navbar__menu__item" data-link="#resume">RESUME</li>
         <li class="navbar__menu__item" data-link="#work">PROJECTS</li>
+        <li class="navbar__menu__item" data-link="#resume">RESUME</li>
         <li class="navbar__menu__item" data-link="#contact">CONTACTS</li>
       </ul>
       <!-- Toggle button -->
@@ -55,13 +54,6 @@
       </div>
     </section>
 
-<!-- Resume -->
-
-    <section id="resume">
-      <div class="resume__container"> 
-     RESUME
-      </div>
-    </section>
       <!-- Work -->
       <section id="work" class="section">
         <div class="section__container">
@@ -98,6 +90,33 @@
            </div>
            <div class="project">
             <img
+              src="imgs/projects/shoppy.png"
+              alt="jtube"
+              class="project__img"
+            />
+            <div class="project__description">
+              <h3>E-commerce</h3>
+              <span>JavaScript, Tailwind CSS, React, Firebase, Cloudinary and HTML</span>
+              <div class="links">
+               <button class='github'>
+                 <a
+                 href="https://github.com/Jchoi1023/shoppy"
+                 class="link"
+                 target="_blank"
+                 >Github</a>  
+               </button>
+              <button class="live">
+               <a
+               href="https://strong-melba-a3f378.netlify.app/"
+               class="link"
+               target="_blank"
+               >Live</a>
+              </button>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <img
               src="imgs/projects/jtube.png"
               alt="todo"
               class="project__img"
@@ -123,57 +142,26 @@
               </div>
             </div>
           </div>
-           <a
-             href=""
-             class="project"
-             data-type="front-end"
-             target="blank"
-           >
-             <img class="project__img" src="imgs/projects/game.png" alt="navbar" />
-             <div class="project__description">
-               <h3>Shoppy</h3>
-               <span>Currently Working</span>
-             </div>
-           </a>
-           <a href="" class="project" data-type="back-end">
-             <img class="project__img" src="imgs/projects/woolworth2.png" alt="" />
-             <div class="project__description">
-               <h3>Project</h3>
-               <span>Explanation</span>
-             </div>
-           </a>
-           <!-- <a href="" class="project" data-type="back-end">
-             <img class="project__img" src="imgs/projects/accor.png" alt="" />
-             <div class="project__description">
-               <h3>Project</h3>
-               <span>Explanation</span>
-             </div>
-           </a> -->
-           <!-- <a href="" class="project" data-type="mobile">
-             <img class="project__img" src="imgs/projects/woolworth2.png" alt="" />
-             <div class="project__description">
-               <h3>Project</h3>
-               <span>Explanation</span>
-             </div>
-           </a> -->
-           <!-- <a href="" class="project" data-type="mobile">
-             <img class="project__img" src="imgs/projects/grain.png" alt="" />
-             <div class="project__description">
-               <h3>Project</h3>
-               <span>Explanation</span>
-             </div>
-           </a> -->
-           <!-- <a href="" class="project" data-type="mobile">
-             <img class="project__img" src="imgs/projects/legal.png" alt="" />
-             <div class="project__description">
-               <h3>Project</h3>
-               <span>Explanation</span>
-             </div>
-           </a> -->
-         </div>
-        </div>
+
+         <div class="project">
+          <img
+            src="imgs/projects/woolworth2.png"
+            alt="todo"
+            class="project__img"
+          />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Typescript project</span>   
        </section>
   
+       <!-- Resume -->
+
+    <section id="resume">
+      <div class="resume__container"> 
+     RESUME
+      </div>
+    </section>
+
     <!-- Contact -->
     <section id="contact" class="section">
       <h1 class="contact__title">LET'S TALK!</h1>
